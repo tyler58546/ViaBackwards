@@ -139,6 +139,7 @@ public final class Protocol1_18_2To1_19 extends BackwardsProtocol<ClientboundPac
         tagRewriter.removeTags("minecraft:cat_variant");
         tagRewriter.removeTags("minecraft:painting_variant");
         tagRewriter.renameTag(RegistryType.BLOCK, "minecraft:wool_carpets", "minecraft:carpets");
+        tagRewriter.renameTag(RegistryType.BLOCK, "minecraft:polar_bears_spawnable_on_alternate", "minecraft:polar_bears_spawnable_on_in_frozen_ocean");
         tagRewriter.renameTag(RegistryType.ITEM, "minecraft:wool_carpets", "minecraft:carpets");
         tagRewriter.addEmptyTag(RegistryType.ITEM, "minecraft:occludes_vibration_signals");
         tagRewriter.registerGeneric(ClientboundPackets1_19.TAGS);
